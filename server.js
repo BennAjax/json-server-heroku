@@ -10,4 +10,5 @@ server.use(cors());
 server.use(middlewares);
 server.use(router);
 
+// Listen on Port 3000
 server.listen(port);
