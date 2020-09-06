@@ -7,6 +7,7 @@ const cors = require('cors');
 
 // add cors middleware to allow for cross site request
 server.use(cors());
+// add middleware
 server.use(middlewares);
 server.use(router);
 
